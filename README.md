@@ -10,14 +10,17 @@ Build a machine learning model to predict diabetes using the Pima Indians Diabet
 - Target: Outcome (0 = Non-diabetic, 1 = Diabetic)
 
 ## Project Structure
+```
 diabetes-prediction/
 ├── diabetes_prediction.ipynb
 ├── diabetes.csv
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Installation
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook diabetes_prediction.ipynb
